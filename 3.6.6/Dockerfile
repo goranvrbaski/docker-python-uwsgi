@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+LABEL maintainer="vrbaski.goran@gmail.com"
+
 RUN apk add --update --no-cache \
     python3 \
     uwsgi \
